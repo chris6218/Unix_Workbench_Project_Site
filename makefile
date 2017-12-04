@@ -1,7 +1,7 @@
 all: README.md
 
 
-README.md: guessinggame.sh other.txt
+README.md:
 	echo "Peer-graded Assignment: Bash, Make, Git, and GitHub" > README.md
 	echo "README.md created: " >> README.md
 	date >> README.md
